@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "PowerShell(py *)"
+      "PowerShell(py *)",
+      "PowerShell(\\(Get-Content \"c:\\\\Data Mining Assignment 2\\\\Data-Mining-Assignment-2-\\\\Data-Mining-Assignment2-1.ipynb\" -Raw | ConvertFrom-Json\\).cells.Count)"
     ]
   }
 }
