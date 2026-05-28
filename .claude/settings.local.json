@@ -5,7 +5,8 @@
       "PowerShell(\\(Get-Content \"c:\\\\Data Mining Assignment 2\\\\Data-Mining-Assignment-2-\\\\Data-Mining-Assignment2-1.ipynb\" -Raw | ConvertFrom-Json\\).cells.Count)",
       "Bash(python -c \"import json; nb=json.load\\(open\\('Data-Mining-Assignment2-1.ipynb',encoding='utf-8'\\)\\); [print\\('---CELL',i,'---'\\); print\\(''.join\\(c['source']\\)\\) for i,c in enumerate\\(nb['cells']\\) if c['cell_type']=='code']\")",
       "Bash(python -c 'import json; nb=json.load\\(open\\('\\\\''Data-Mining-Assignment2-1.ipynb'\\\\'',encoding='\\\\''utf-8'\\\\''\\)\\); *)",
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "PowerShell($nb = Get-Content \"C:\\\\Users\\\\Vince\\\\OneDrive\\\\Documents\\\\Data Mining Assignment\\\\Data-Mining-Assignment2-1.ipynb\" -Raw | ConvertFrom-Json; $nb.cells[11].source)"
     ]
   }
 }
